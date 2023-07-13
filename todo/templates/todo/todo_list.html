@@ -12,7 +12,7 @@
         {% for item in items%}
             <tr>
             {% if item.done %}
-                <td><strike><td>{{ item.name }}</td></strike></td>
+                <td><strike>{{ item.name }}</strike></td>
             {%else%}
                 <td>{{ item.name }}</td>
             {% endif %}   
@@ -22,5 +22,6 @@
             </tr>
         {% endfor%}
 </table>
+<a href="/add">Add an Item</a>
 </body>
 </html>
