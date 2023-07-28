@@ -3,7 +3,6 @@ import os
 import dj_database_url
 import env
 
-
 import os
 
 if os.path.isfile("env.py"):
