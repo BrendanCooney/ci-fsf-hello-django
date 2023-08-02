@@ -36,7 +36,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 DEBUG = development
 
 if development:
-    ALLOWED_HOSTS = ['localhost', '8000-brendancoon-cifsfhellod-6stujtla7xu.ws-eu102.gitpod.io']
+    ALLOWED_HOSTS = ['localhost', '8000-brendancoon-cifsfhellod-6stujtla7xu.ws-eu102.gitpod.io','bc2023-django-todo-app-803bc4497ea6.herokuapp.com']
 else:
     ALLOWED_HOSTS = [os.environ.get('HEROKU_HOSTNAME')]
 
